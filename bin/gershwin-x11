@@ -2,5 +2,5 @@
 
 . /System/Library/Makefiles/GNUstep.sh
 
-marco & sleep 1 &&
+xfwm4 & sleep 1 &&
 openapp GWorkspace
