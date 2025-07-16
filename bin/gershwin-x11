@@ -25,7 +25,7 @@ xfce4-panel &
 xfce4-clipman &
 
 # Start Network manager tray
-/usr/local/bin/networkmgr &
+sudo /usr/local/bin/networkmgr &
 
 # Start Update station stray for update notifications
 sudo update-station &
