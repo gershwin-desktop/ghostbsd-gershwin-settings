@@ -14,8 +14,8 @@ fi
 xfwm4 &
 
 # Start VirtualBox client when the guest additions are installed
-if [ -f "/usr/local/bin/VboxClient-all ] ; then
-  /usr/local/bin/VboxClient-all &
+if [ -f "/usr/local/bin/VBoxClient-all" ] ; then
+  /usr/local/bin/VBoxClient-all &
 fi
 
 # Temporary panel until GNUstep native panel replaces
